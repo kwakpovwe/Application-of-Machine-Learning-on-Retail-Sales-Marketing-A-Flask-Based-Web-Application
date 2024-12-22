@@ -15,10 +15,10 @@ Key Features
  - Integrates cutting-edge models like LightGBM, XGBoost, Random Forest, and Gradient Boosting.
 - Provides comparative analysis of models using metrics like RMSE, MAPE, and MAE.
 
-    Interactive Web Application:
+## Interactive Web Application:
         Built using Flask, providing an intuitive interface for users to input data and generate forecasts dynamically.
 
-    Real-Time Predictions:
+## Real-Time Predictions:
         Seamless deployment of trained models for live forecasting using operational sales data.
 
     Feature Importance Visualization:
