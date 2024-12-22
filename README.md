@@ -2,7 +2,7 @@
 - A Flask-based web app for retail sales forecasting using machine learning models like XGBoost and LightGBM. It predicts sales trends, identifies key drivers, and provides real-time insights to optimize inventory, pricing, and marketing strategies. Scalable, intuitive, and built for modern retail analytics.
 
 
-Fig 1: Machine Learning-Powered Retail Sales Forecasting Dashboard![image](https://github.com/user-attachments/assets/b932c555-bae9-41ea-a470-ecbebe84ce4f)
+- Fig 1: Machine Learning-Powered Retail Sales Forecasting Dashboard![image](https://github.com/user-attachments/assets/b932c555-bae9-41ea-a470-ecbebe84ce4f)
             
       
 
