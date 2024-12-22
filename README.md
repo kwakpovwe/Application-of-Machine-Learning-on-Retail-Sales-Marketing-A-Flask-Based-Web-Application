@@ -3,6 +3,7 @@
 
 
 ![image](https://github.com/user-attachments/assets/b932c555-bae9-41ea-a470-ecbebe84ce4f)
+Fig 1: Machine Learning-Powered Retail Sales Forecasting Dashboard
 
 
 
