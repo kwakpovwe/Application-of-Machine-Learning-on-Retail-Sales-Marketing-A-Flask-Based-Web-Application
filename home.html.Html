@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Sales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+        input[type="radio"] {
+            margin-top: 5px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Form</h1>
+    <form action="/predict" method="post">
+        <div>
+            <label for="outlet_type_grocery_store">Outlet Type Grocery Store:</label>
+            <input type="radio" id="outlet_type_grocery_store_0" name="outlet_type_grocery_store" value="0" required> No
+            <input type="radio" id="outlet_type_grocery_store_1" name="outlet_type_grocery_store" value="1" required> Yes
+        </div>
+
+        <div>
+            <label for="item_mrp">Item MRP:</label>
+            <input type="number" step="0.01" id="item_mrp" name="item_mrp" required>
+        </div>
+
+        <div>
+            <label for="outlet_establishment_year">Outlet Establishment Year:</label>
+            <input type="number" id="outlet_establishment_year" name="outlet_establishment_year" required>
+        </div>
+
+        <div>
+            <label for="item_visibility">Item Visibility:</label>
+            <input type="number" step="0.01" id="item_visibility" name="item_visibility" required>
+        </div>
+
+        <div>
+            <label for="item_visibility_meanratio">Item Visibility Mean Ratio:</label>
+            <input type="number" step="0.01" id="item_visibility_meanratio" name="item_visibility_meanratio" required>
+        </div>
+
+        <div>
+            <label for="item_weight">Item Weight:</label>
+            <input type="number" step="0.01" id="item_weight" name="item_weight" required>
+        </div>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
