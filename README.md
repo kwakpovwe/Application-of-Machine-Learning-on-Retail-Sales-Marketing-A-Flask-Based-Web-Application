@@ -1,8 +1,8 @@
 ##  Application-of-Machine-Learning-on-Retail-Sales-Marketing-A-Flask-Based-Web-Application
-A Flask-based web app for retail sales forecasting using machine learning models like XGBoost and LightGBM. It predicts sales trends, identifies key drivers, and provides real-time insights to optimize inventory, pricing, and marketing strategies. Scalable, intuitive, and built for modern retail analytics.
+- A Flask-based web app for retail sales forecasting using machine learning models like XGBoost and LightGBM. It predicts sales trends, identifies key drivers, and provides real-time insights to optimize inventory, pricing, and marketing strategies. Scalable, intuitive, and built for modern retail analytics.
 
 
-Project Overview
+## Project Overview
 
 This project, "Application of Machine Learning on Retail Sales Marketing," is a Flask-based web application that leverages advanced machine learning models to forecast sales and demand in the retail and Fast-Moving Consumer Goods (FMCG) sectors. It provides businesses with precise, real-time forecasting capabilities to optimize decision-making processes related to inventory, pricing, and marketing strategies. By addressing the limitations of traditional statistical methods, this project ensures robust, accurate, and scalable solutions for complex retail environments.
 Key Features
