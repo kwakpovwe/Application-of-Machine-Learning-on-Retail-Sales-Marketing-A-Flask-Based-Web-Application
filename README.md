@@ -2,7 +2,7 @@
 - A Flask-based web app for retail sales forecasting using machine learning models like XGBoost and LightGBM. It predicts sales trends, identifies key drivers, and provides real-time insights to optimize inventory, pricing, and marketing strategies. Scalable, intuitive, and built for modern retail analytics.
 
 
-- Fig 1: Machine Learning-Powered Retail Sales Forecasting Dashboard![image](https://github.com/user-attachments/assets/b932c555-bae9-41ea-a470-ecbebe84ce4f)
+Fig 1: Machine Learning-Powered Retail Sales Forecasting Dashboard![image](https://github.com/user-attachments/assets/b932c555-bae9-41ea-a470-ecbebe84ce4f)
             
       
 
@@ -18,49 +18,55 @@ Key Features
 - Provides comparative analysis of models using metrics like RMSE, MAPE, and MAE.
 
 ## Interactive Web Application:
-        Built using Flask, providing an intuitive interface for users to input data and generate forecasts dynamically.
+- Built using Flask, providing an intuitive interface for users to input data and generate forecasts dynamically.
 
 ## Real-Time Predictions:
-        Seamless deployment of trained models for live forecasting using operational sales data.
+- Seamless deployment of trained models for live forecasting using operational sales data.
 
-    Feature Importance Visualization:
-        Identifies and ranks key factors influencing sales, helping stakeholders understand drivers of performance.
+## Feature Importance Visualization:
+- Identifies and ranks key factors influencing sales, helping stakeholders understand drivers of performance.
 
-    Scalable Architecture:
+
+## Scalable Architecture:
         Designed to handle large datasets and adapt to evolving business requirements.
 
-Motivation
-
-Sales and demand forecasting are crucial for managing supply chains, optimizing inventory, and driving profitability in the retail and FMCG sectors. Traditional statistical models like ARIMA often fail to account for non-linear relationships and are heavily dependent on manual expert intervention. This project leverages machine learning techniques to provide automated, scalable, and accurate forecasting solutions. The Flask-based deployment ensures accessibility across a range of users, from technical analysts to non-technical business managers.
+## Motivation
+- Sales and demand forecasting are crucial for managing supply chains, optimizing inventory, and driving profitability in the retail and FMCG sectors. Traditional statistical models like ARIMA often fail to account for non-linear relationships and are heavily dependent on manual expert intervention. This project leverages machine learning techniques to provide automated, scalable, and accurate forecasting solutions. The Flask-based deployment ensures accessibility across a range of users, from technical analysts to non-technical business managers.
 Project Architecture
 
-The project is structured into the following components:
+## The project is structured into the following components:
 
-    Data Preprocessing:
-        Handles missing values, encodes categorical variables, and engineers relevant features.
-    Model Training:
-        Implements advanced machine learning models with hyperparameter tuning.
-    Model Evaluation:
-        Compares models based on performance metrics like RMSE, MAE, and MAPE.
-    Web Deployment:
-        Deploys the best-performing model as a Flask-based web application.
-    Visualization:
-        Provides graphical representations of feature importance, correlation matrices, and model performance.
 
-Technical Stack
+## Data Preprocessing:
+- Handles missing values, encodes categorical variables, and engineers relevant features.
 
-    Programming Language: Python
-    Web Framework: Flask
-    Data Manipulation: Pandas, NumPy
-    Machine Learning: Scikit-learn, XGBoost, LightGBM
-    Visualization: Matplotlib, Seaborn
-    Deployment Tools: Flask, Gunicorn (optional for production)
+## Model Training:
+- Implements advanced machine learning models with hyperparameter tuning.
 
-Dataset Overview
+## Model Evaluation:
+- Compares models based on performance metrics like RMSE, MAE, and MAPE.
 
-The project utilizes a retail sales dataset from a chain of Big Mart stores. The dataset includes:
+## Web Deployment:
+- Deploys the best-performing model as a Flask-based web application.
 
-    Independent Variables:
+## Visualization:
+- Provides graphical representations of feature importance, correlation matrices, and model performance.
+
+
+## Technical Stack
+
+- Programming Language: Python
+- Web Framework: Flask
+- Data Manipulation: Pandas, NumPy
+- Machine Learning: Scikit-learn, XGBoost, LightGBM
+- Visualization: Matplotlib, Seaborn
+- Deployment Tools: Flask, Gunicorn (optional for production)
+
+## Dataset Overview
+
+- The project utilizes a retail sales dataset from a chain of Big Mart stores. The dataset includes:
+
+-- Independent Variables:
         Product-related attributes: Item weight, visibility, MRP, type.
         Outlet-related attributes: Size, location type, outlet age.
     Target Variable:
